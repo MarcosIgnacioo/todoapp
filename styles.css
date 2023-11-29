@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Hack;
+}
+
+h1 {
+    padding: 1%;
+    font-size: 2.5rem;
+    background-color: #f8dc3d;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    font-size: 2.5rem;
+}
+
+.tasks * {
+    width: 50vw;
+    height: 25%;
+    padding: 1% 0 1% 0;
+}
+
+.tasks input {
+    padding: 1%;
+}
+
+#add_task {
+    all: initial;
+    background-color: none;
+    border: none;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.tasks_created {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    font-size: 7rem;
+}
+
+.tasks_created li {
+    width: 50.5%;
+    height: 25%;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 1%;
+}
+.tasks_created li span {
+    text-align: left;
+    padding: 1%;
+}
+.tasks_created li input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px; 
+}
+.tasks_created li button {
+    padding: 1%;
+    height: 25%;
+    background-color: rgb(219, 65, 86);
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+.completed_tasks{
+    font-size: 2.5rem;
+}
